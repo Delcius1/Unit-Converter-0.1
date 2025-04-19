@@ -1,0 +1,59 @@
+#Body{
+    background-color: rgb(109, 10, 202);
+}
+#web{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#Box{
+    background-color: #b908e1;
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0);
+}
+.Things{
+    font-size: 25px;
+    border: black solid 0px;
+    background-color: #c64fe1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0);
+}
+#convert{
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    transition: 0.2s;
+}
+#convert:hover{
+    cursor: pointer;
+    background-color: #88219c;
+}
+#input1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#unit1{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+#unit1:hover{
+    cursor: pointer;
+}
+#input2{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+#unit2{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+#unit2:hover{
+    cursor: pointer;
+}
